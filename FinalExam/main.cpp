@@ -17,7 +17,7 @@ void ShowMenu();
 void ShowDataInMatrix();
 void EnterDataInMatrix();
 void SumOfAllPositive();
-
+void countValues();
 /** <code>main</code>main function
  <BR>
  @Return 0
@@ -105,3 +105,14 @@ void SumOfAllPositive(double PositiveNums){
         cout<<"Enter your Positive choices: "<<endl;
     
 }
+/** <code>countValues</code>Shows the elements with value 1.5 and counts them.
+ */
+void countValues(){
+    
+    int count;
+    
+    for (int i=1.5;i<5;count++);
+    
+    cout<<count;
+}
+
