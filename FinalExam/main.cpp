@@ -113,6 +113,6 @@ void countValues(){
     
     for (int i=1.5;i<5;count++);
     
-    cout<<count;
+    cout<<"The elements with value 1.5 are: "<<count;
 }
 
